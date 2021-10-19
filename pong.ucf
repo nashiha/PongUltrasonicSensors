@@ -1,0 +1,36 @@
+NET "clk" LOC = "B8";
+NET "rst" LOC = "N3";
+NET "frz" LOC = "E2";
+NET "mute" LOC = "F3";
+
+NET "hsync" LOC = "J14";
+NET "vsync" LOC = "K13";
+
+NET "rgb[7]" LOC = "C14";
+NET "rgb[6]" LOC = "D13";
+NET "rgb[5]" LOC = "F13";
+NET "rgb[4]" LOC = "F14";
+NET "rgb[3]" LOC = "G13";
+NET "rgb[2]" LOC = "G14";
+NET "rgb[1]" LOC = "H13";
+NET "rgb[0]" LOC = "J13";
+
+# Ultrasonic Sensors & Speaker
+NET "sig1" LOC = "B2";   #JA
+NET "sig2" LOC = "A3";   #JA
+NET "speaker" LOC = "J3";#JA
+
+# Test Signals
+#NET "p1c" LOC = "G3";
+#NET "p2c" LOC = "B4";
+
+# --- Monitoring Signals --- #
+#NET "led[8]" LOC = "B7";
+#NET "led[7]" LOC = "M5";
+#NET "led[6]" LOC = "M11";
+#NET "led[5]" LOC = "P7";
+#NET "led[4]" LOC = "P6";
+#NET "led[3]" LOC = "N5";
+#NET "led[2]" LOC = "N4";
+#NET "led[1]" LOC = "P4";
+#NET "led[0]" LOC = "G1";
